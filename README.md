@@ -9,11 +9,8 @@ The <b>Hall Booking API</b> is designed to manage room bookings for events and m
 - <b>Customer Management :</b> Retrieve detailed informatiuon about customers and their bookings.
 - <b>Data Retrieval :</b> Get lists of rooms, bookings, and customers, along with specific booking counts.
 
-***NOTE : Before book a room, ensure that both rooms and customers are available in the local JSON database. if either is missing, please create them first.***
+### Important Notes
 
-### All the API's are documented using postman Documentation and Published. 
-Published API link : https://documenter.getpostman.com/view/35371272/2sA3s4nAio
-
-***NOTE: Since I'm deployed the api in render free tier, The initial request is taking time, Please wait a littele longer for initial request***
-
-Please find the api deployed url : https://nodejs-hallbooking-api-xtfw.onrender.com
+- <b>Pre-booking Requirement :</b> Before book a room, ensure that both rooms and customers are available in the local JSON database. if either is missing, please create them first
+- <b>API Documentation :</b> All the APIs are documented using Postman and published [here](https://documenter.getpostman.com/view/35371272/2sA3s4nAio)
+- <b>Deployed API :</b> The Api is deployed on Render's free tier. The initial request may take a little longer, so please be patient. You can access the deployed API at : https://nodejs-hallbooking-api-xtfw.onrender.com
