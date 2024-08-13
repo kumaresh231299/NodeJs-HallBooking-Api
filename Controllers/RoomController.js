@@ -74,7 +74,11 @@ export const createRoom = (req, res) => {
     rooms.push(newRoom)
     //console.log(newRoom)
 
+<<<<<<< HEAD
     res.status(200).json({ message: "Room Created Successfully", data: newRoom })
+=======
+    res.status(200).json({ messahe: "Room Created Successfully", data: newRoom })
+>>>>>>> 0acbf1436a9d7ef228b461fa9b30e838ff5555e3
 }
 
 //Booking a Room 
@@ -98,7 +102,11 @@ export const bookRoom =(req,res)=>{
         return res.status(400).json({message: "Room already booked for the selected time !"})
     }
 
+<<<<<<< HEAD
     //Create new booking
+=======
+    //Create new bvooking
+>>>>>>> 0acbf1436a9d7ef228b461fa9b30e838ff5555e3
     const newBooking = {
         customerName:customerName,
         bookingDate:bookingDate,
